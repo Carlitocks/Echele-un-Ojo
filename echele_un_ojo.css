@@ -1,0 +1,38 @@
+/* Archivo CSS extraído de echele_un_ojo.html */
+
+:root {
+  --verde: #bbcf98;
+  --verde-light: #d4e3b8;
+  --verde-dark: #7a9a52;
+  --verde-text: #3a5a18;
+  --azul: #92c8d1;
+  --azul-light: #b8dde4;
+  --azul-dark: #4a9aaa;
+  --azul-text: #1e5c66;
+  --dark: #1e2a1f;
+  --dark2: #2c3e2d;
+  --dark3: #3d5430;
+  --cream: #f7f5ee;
+  --cream2: #efe9d8;
+  --white: #ffffff;
+  --gray: #8a9180;
+  --radius: 14px;
+  --radius-lg: 22px;
+  --shadow: 0 4px 24px rgba(30,42,31,0.10);
+  --shadow-lg: 0 12px 48px rgba(30,42,31,0.14);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--dark);
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5 { font-family: 'Syne', sans-serif; }
+
+/* ...existing code... (todo el CSS extraído del <style> del HTML) ... */
